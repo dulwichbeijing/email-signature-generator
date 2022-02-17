@@ -17,6 +17,10 @@
       Job title (zh):
       <input type="text" name="title_zh" v-model="staff_title_zh">
     </label>
+    <label class="text">
+      Phone extension:
+      <input type="text" name="title_zh" v-model="staff_extension">
+    </label>
     <h2>Your certifications</h2>
     <div class="badges">
       <label class="checkbox" v-for="badge in staff_badges" :key="badge.id">
@@ -31,6 +35,7 @@
     :title_en="staff_title_en" 
     :title_zh="staff_title_zh" 
     :badges="selected_badges"
+    :phone_extension="staff_extension"
   />
 </template>
 
@@ -44,17 +49,18 @@ export default {
   },
   data: function() {
     return {
-      staff_name_en: "Jared Rigby",
-      staff_name_zh: "杰瑞",
-      staff_title_en: "Computer Science Teacher",
-      staff_title_zh: "计算机科学老师",
+      staff_name_en: "",
+      staff_name_zh: "",
+      staff_title_en: "",
+      staff_title_zh: "",
+      staff_extension: "",
       staff_badges: [
         // { id: "apple", title: "Apple Distinguished Educator", selected: false },
-        { id: "kognity", title: "Kognity Lead Educator", selected: false },
         // { id: "mie", title: "MS Innovative Educator", selected: false },
         { id: "miee21", title: "MIEE 2020-2021", selected: false },
         // { id: "miee22", title: "MIEE 2021-2022", selected: false },
-        { id: "seesaw", title: "Seesaw Ambassador", selected: false }
+        { id: "seesaw", title: "Seesaw Ambassador", selected: false },
+        { id: "kognity", title: "Kognity Lead Educator", selected: false }
       ]
     }
   },

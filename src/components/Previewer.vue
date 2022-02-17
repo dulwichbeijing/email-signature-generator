@@ -72,7 +72,9 @@
             <table style="margin: 0; padding: 0;"> <!-- School contact details -->
               <tr>
                 <td style="font-size: 12px; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; padding: 0; line-height: 1.2;">
-                  <strong>beijing.dulwich.org</strong> | <strong>T:</strong> (86 10) 6454 9000 | <strong>WeChat:</strong> DulwichBeijing
+                  <strong>beijing.dulwich.org</strong> | 
+                  <strong>T:</strong> (86 10) 6454 <span v-if="phone_extension">{{ phone_extension}}</span> <span v-else>9000</span> 
+                  | <strong>WeChat:</strong> DulwichBeijing
                   <br>
                   89 Capital Airport Road Shunyi District Beijing 101300 PRC
                   <br>
@@ -90,7 +92,7 @@
 <script>
 export default {
   name: "Previewer",
-  props: ['name_en', 'name_zh', 'title_en', 'title_zh', 'badges'],
+  props: ['name_en', 'name_zh', 'title_en', 'title_zh', 'badges', 'phone_extension'],
   methods: {
     getImgUrl(badge_id) {
       return require('../assets/teacher-badges/' + badge_id + '.png')
