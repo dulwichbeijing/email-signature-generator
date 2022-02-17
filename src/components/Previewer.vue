@@ -79,6 +79,8 @@
                   89 Capital Airport Road Shunyi District Beijing 101300 PRC
                   <br>
                   北京德威英国国际学校 北京市顺义区首都机场路89号丽京花园7区 邮编：101300
+                  <br><br>
+                  <em>School disclaimer message to be updated with final copy...</em>
                 </td>
               </tr>
             </table>
