@@ -13,4 +13,19 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #F5F5F5;
+    border-top: 5px solid #D30013;
+  }
+</style>

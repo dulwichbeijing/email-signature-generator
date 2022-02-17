@@ -1,5 +1,5 @@
 {
-  "name": "DCB Email Signature Creator",
+  "name": "dcb-email-signature-gen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
