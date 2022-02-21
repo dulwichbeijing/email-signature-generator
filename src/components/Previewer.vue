@@ -1,7 +1,8 @@
 <template>
-  <div class="previewer">
-    <h2>Preview - Copy and paste this into Outlook:</h2>
+  <div class="previewer" :class="{ dark: darkMode }">
+    <h2>Preview</h2>
     <div class="live-preview">
+      <button @click="toggleDarkMode">Dark Mode</button>
       <table class="email-template" style="margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif;">
         <tr>
           <td>
@@ -95,15 +96,24 @@
 export default {
   name: "Previewer",
   props: ['name_en', 'name_zh', 'title_en', 'title_zh', 'badges', 'phone_extension'],
+  data() {
+    return {
+      darkMode: false
+    }
+  },
   methods: {
     getImgUrl(badge_id) {
       return require('../assets/teacher-badges/' + badge_id + '.png')
+    },
+    toggleDarkMode() {
+      this.darkMode = !this.darkMode;
     }
   }
 }
 </script>
 <style>
   .previewer {
+    position: relative;
     line-height: 1;
     background: #fff;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
@@ -112,7 +122,16 @@ export default {
     margin-top: 20px;
   }
 
+  .previewer.dark {
+    background: #262626;
+    color: #fff;
+  }
+
   .previewer button {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 80%;
     background-color: #d30013;
     border-radius: 4px;
     border-style: none;
@@ -123,7 +142,7 @@ export default {
     line-height: 16px;
     margin: 20px 4px 0;
     min-width: 1px;
-    padding: 11px 28px 12px;
+    padding: 8px 24px 9px;
   }
 
   .previewer button:hover {
