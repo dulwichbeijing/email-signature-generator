@@ -21,7 +21,7 @@
       Phone extension:
       <input type="text" name="title_zh" v-model="staff_extension">
     </label>
-    <h2>Your certifications</h2>
+    <h2>Your certifications (Max 3)</h2>
     <div class="badges">
       <label class="checkbox" v-for="badge in staff_badges" :key="badge.id">
         {{ badge.title }}
@@ -55,18 +55,34 @@ export default {
       staff_title_zh: "",
       staff_extension: "",
       staff_badges: [
-        // { id: "apple", title: "Apple Distinguished Educator", selected: false },
-        // { id: "mie", title: "MS Innovative Educator", selected: false },
-        { id: "miee21", title: "MIEE 2020-2021", selected: false },
-        // { id: "miee22", title: "MIEE 2021-2022", selected: false },
-        { id: "seesaw", title: "Seesaw Ambassador", selected: false },
-        { id: "kognity", title: "Kognity Lead Educator", selected: false }
+        { id: "apple", title: "Apple Distinguished Educator", selected: false },
+        { id: "common", title: "Common Sense Educator", selected: false},
+        // { id: "google1", title: "Google Certified Educator Level 1", selected: false},
+        // { id: "google2", title: "Google Certified Educator Level 2", selected: false},
+        { id: "iste", title: "ISTE Certified Educator", selected: false },
+        { id: "kognity", title: "Kognity Lead Educator", selected: false },
+        { id: "miee-2122", title: "MIEE 2021-2022", selected: false },
+        { id: "esports", title: "Microsoft Esports Leader", selected: false },
+        { id: "seesaw", title: "Seesaw Ambassador", selected: false }
       ]
     }
   },
   computed: {
+    badge_counter: function() {
+      let num_badges = this.staff_badges.filter(badge => badge.selected == true).length
+
+      if (num_badges <= 3) {
+        return num_badges;
+      } else {
+        return -1;
+      }
+    },
     selected_badges: function() {
-      return this.staff_badges.filter(badge => badge.selected == true)
+      if (this.badge_counter !== -1) {
+        return this.staff_badges.filter(badge => badge.selected == true);
+      } else {
+        return [];
+      }
     }
   }
 }
