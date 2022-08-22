@@ -2,23 +2,24 @@
   <form class="teacher-details">
     <h2>Your details</h2>
     <label class="text">
-      Full name (en):
+      Full name:
       <input type="text" name="name_en" v-model="staff_name_en">
     </label>
     <label class="text">
-      Full name (zh):
+      姓名:
       <input type="text" name="name_zh" v-model="staff_name_zh">
     </label>
     <label class="text">
-      Job title (en):
+      Job title:
       <input type="text" name="title_en" v-model="staff_title_en">
     </label>
     <label class="text">
-      Job title (zh):
+      职称:
       <input type="text" name="title_zh" v-model="staff_title_zh">
     </label>
     <label class="text">
-      Phone extension:
+      Phone extension / <br>
+      电话分机:
       <input type="text" name="title_zh" v-model="staff_extension">
     </label>
     <h2>Your certifications (Max 3)</h2>
@@ -26,6 +27,9 @@
       <label class="checkbox" v-for="badge in staff_badges" :key="badge.id">
         {{ badge.title }}
         <input type="checkbox" :name="badge.title" v-model="badge.selected">
+      </label>
+      <label>
+        Something missing? <a href="mailto:jared.rigby@dulwich.org">Email Jared</a>
       </label>
     </div>
   </form>
@@ -89,6 +93,10 @@ export default {
 </script>
 
 <style scoped>
+
+  a {
+    color: #D30013;
+  }
   .teacher-details {
     background: #fff;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
