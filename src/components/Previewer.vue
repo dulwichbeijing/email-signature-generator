@@ -32,7 +32,7 @@
           </tr>
           <tr>
             <td>
-              <table style="margin: 0; padding: 0; padding-bottom: 2px;"> <!-- DCB Branding -->
+              <table style="margin: 0; padding: 0;"> <!-- DCB Branding -->
                 <tr> <!-- Main logo -->
                   <td colspan="2" style="border-top: 1px solid #7c484f; padding-top: 10px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
                     <img src="../assets/dcb-branding/dcb-logo-v3.png" title="Dulwich College Beijing" />
@@ -70,17 +70,23 @@
                   <td>
                     <table style="margin: 0; padding: 0">
                       <tr>
-                        <td style="padding-top: 10px; padding-left: 25px; padding-bottom: 0; padding-right: 0;">
-                          <a style="display: inline-block; padding-right: 7px;" href="https://www.linkedin.com/school/dulwich-college-beijing/mycompany/">
+                        <td style="padding-top: 0px; padding-left: 25px; padding-bottom: 0; padding-right: 0;">
+                          <a href="https://www.linkedin.com/school/dulwich-college-beijing/mycompany/">
                             <img width="24" height="32" src="../assets/socials/linkedin.png" alt="">
                           </a>
-                          <a style="display: inline-block; padding-right: 7px;" href="https://www.facebook.com/dulwichbeijing">
+                        </td>
+                        <td style="padding-top: 0px; padding-left: 7px; padding-bottom: 0; padding-right: 0;">
+                          <a href="https://www.facebook.com/dulwichbeijing">
                             <img width="24" height="32" src="../assets/socials/facebook.png" alt="">
                           </a>
-                          <a style="display: inline-block; padding-right: 7px;" href="https://www.instagram.com/dulwichcollegebeijing/">
+                        </td>
+                        <td style="padding-top: 0px; padding-left: 7px; padding-bottom: 0; padding-right: 0;">
+                          <a href="https://www.instagram.com/dulwichcollegebeijing/">
                             <img width="24" height="32" src="../assets/socials/instagram.png" alt="">
                           </a>
-                          <a style="display: inline-block; padding-right: 7px;" href="https://www.youtube.com/channel/UCPAMYCaLqMLdKSTZWfmL-YQ">
+                        </td>
+                        <td style="padding-top: 0px; padding-left: 7px; padding-bottom: 0; padding-right: 0;">
+                          <a href="https://www.youtube.com/channel/UCPAMYCaLqMLdKSTZWfmL-YQ">
                             <img width="32" height="32" src="../assets/socials/youtube.png" alt="">
                           </a>
                         </td>
@@ -103,7 +109,7 @@
                   <td style="font-size: 12px; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; padding: 0; line-height: 1.2; margin: 0;">
                     <small>
                       <em>
-                        This email and any files transmitted with it are confidential and intended solely for the recipients to whom they are addressed. It is forbidden to share any part of this message with any third party without the sender's consent.<br><br>
+                        This email and any files transmitted with it are confidential and intended solely for the recipients to whom they are addressed. It is forbidden to share any part of this message with any third party without the sender's consent.<br>
                         If you received this message by mistake, please notify the sender immediately and delete this email from your system. If you are not the named addressee, you should not disseminate, distribute or copy this email. 
                       </em>
                     </small>
