@@ -23,8 +23,8 @@
             <td>
               <table style="margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif;"> <!-- Staff accreditation -->
                 <tr>
-                  <td style="padding-top: 5px; padding-bottom: 5px; padding-left: 0; padding-right: 0;">
-                    <img style="display: inline-block; margin-right: 5px;" v-for="badge in badges" :key="badge.id" :title="badge.title" :src="getImgUrl(badge.id)" />
+                  <td style="padding-top: 5px; padding-bottom: 5px; padding-left: 0; padding-right: 7px;" v-for="badge in badges" :key="badge.id">
+                    <img style="display: block;" :title="badge.title" :src="getImgUrl(badge.id)" />
                   </td>
                 </tr>
               </table>
