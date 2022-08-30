@@ -20,9 +20,9 @@
     <label class="text">
       Phone extension / <br>
       电话分机:
-      <input type="text" name="title_zh" v-model="staff_extension">
+      <input type="text" name="title_zh" v-model="staff_extension" placeholder="e.g. 9174">
     </label>
-    <h2>Your certifications (Max 3)</h2>
+    <h2>Your certifications (optional - max. 3)</h2>
     <div class="badges">
       <label class="checkbox" v-for="badge in staff_badges" :key="badge.id">
         {{ badge.title }}

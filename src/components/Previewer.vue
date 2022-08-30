@@ -35,7 +35,7 @@
               <table style="margin: 0; padding: 0;"> <!-- DCB Branding -->
                 <tr> <!-- Main logo -->
                   <td colspan="2" style="border-top: 1px solid #7c484f; padding-top: 10px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                    <img src="../assets/dcb-branding/dcb-logo-v3.png" title="Dulwich College Beijing" />
+                    <img src="../assets/dcb-branding/dcb-logo-v4.png" title="Dulwich College Beijing" />
                   </td>
                 </tr>
                 <tr>
