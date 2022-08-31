@@ -60,6 +60,7 @@ export default {
       staff_extension: "",
       staff_badges: [
         { id: "apple", title: "Apple Distinguished Educator", selected: false },
+        { id: "century", title: "Century Ambassador 2022-23", selected: false},
         { id: "common", title: "Common Sense Educator", selected: false},
         // { id: "google1", title: "Google Certified Educator Level 1", selected: false},
         // { id: "google2", title: "Google Certified Educator Level 2", selected: false},

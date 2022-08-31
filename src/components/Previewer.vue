@@ -4,10 +4,10 @@
     <button @click="toggleDarkMode">Dark Mode</button>
     <div class="previewer" :class="{ dark: darkMode }">
       <div class="live-preview">
-        <table class="email-template" width="600" style="width: 600px; margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif;">
+        <table class="email-template" width="600" style="width: 600px; margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; border-spacing: 0;">
           <tr>
             <td>
-              <table style="margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; line-height: 1.1"> <!-- Name and job title -->
+              <table style="margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; line-height: 1.1  border-spacing: 0;"> <!-- Name and job title -->
                 <tr>
                   <td colspan="2" style="padding: 0; padding-bottom: 6px;">
                     <strong>{{ name_en }} {{ name_zh }}</strong>
@@ -21,7 +21,7 @@
           </tr>
           <tr v-if="badges.length > 0">
             <td>
-              <table style="margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif;"> <!-- Staff accreditation -->
+              <table style="margin: 0; padding: 0; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif;  border-spacing: 0;"> <!-- Staff accreditation -->
                 <tr>
                   <td style="padding-top: 5px; padding-bottom: 5px; padding-left: 0; padding-right: 7px;" v-for="badge in badges" :key="badge.id">
                     <img style="display: block;" :title="badge.title" :src="getImgUrl(badge.id)" />
@@ -32,7 +32,7 @@
           </tr>
           <tr>
             <td>
-              <table style="margin: 0; padding: 0;"> <!-- DCB Branding -->
+              <table style="margin: 0; padding: 0; border-spacing: 0;"> <!-- DCB Branding -->
                 <tr> <!-- Main logo -->
                   <td colspan="2" style="border-top: 1px solid #7c484f; padding-top: 10px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
                     <img src="../assets/dcb-branding/dcb-logo-v4.png" title="Dulwich College Beijing" />
@@ -43,7 +43,7 @@
                     <img src="../assets/dcb-branding/live-worldwise.png" title="Live Worldwise" />
                   </td>
                   <td>
-                    <table width="330" style="margin: 0; padding: 0;">
+                    <table width="333" style="margin: 0; padding: 0; border-spacing: 0;">
                       <tr>
                         <td style="border-bottom: 1px solid #7c484f; padding: 0;"></td>
                       </tr>
@@ -55,7 +55,7 @@
           </tr>
           <tr>
             <td>
-              <table style="margin: 0; padding: 0;"> <!-- School contact details -->
+              <table style="margin: 0; padding: 0; border-spacing: 0;"> <!-- School contact details -->
                 <tr>
                   <td style="font-size: 12px; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; padding: 0; line-height: 1.2;">
                     <strong>beijing.dulwich.org</strong> | 
@@ -99,7 +99,7 @@
           </tr>
           <tr>
             <td>
-              <table style="margin: 0; padding: 0;"> <!-- School accreditation -->
+              <table style="margin: 0; padding: 0; border-spacing: 0;"> <!-- School accreditation -->
                 <tr>
                   <td style="padding: 0; padding-bottom: 5px;">
                     <img src="../assets/accreditations/all-accreds.png" alt="">
