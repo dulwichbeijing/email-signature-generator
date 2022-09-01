@@ -35,12 +35,12 @@
               <table style="margin: 0; padding: 0; border-spacing: 0;"> <!-- DCB Branding -->
                 <tr> <!-- Main logo -->
                   <td colspan="2" style="border-top: 1px solid #7c484f; padding-top: 10px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                    <img src="../assets/dcb-branding/dcb-logo-v4.png" title="Dulwich College Beijing" />
+                    <img src="https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/dcb-branding/dcb-logo-v4.png" title="Dulwich College Beijing" />
                   </td>
                 </tr>
                 <tr>
                   <td style="padding-top: 0; padding-left: 0; padding-right: 0;">
-                    <img src="../assets/dcb-branding/live-worldwise.png" title="Live Worldwise" />
+                    <img src="https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/dcb-branding/live-worldwise.png" title="Live Worldwise" />
                   </td>
                   <td>
                     <table width="333" style="margin: 0; padding: 0; border-spacing: 0;">
@@ -71,23 +71,23 @@
                     <table style="margin: 0; padding: 0">
                       <tr>
                         <td style="padding-top: 0px; padding-left: 25px; padding-bottom: 0; padding-right: 0;">
-                          <a href="https://www.linkedin.com/school/dulwich-college-beijing/mycompany/">
-                            <img width="24" height="32" src="../assets/socials/linkedin.png" alt="">
+                          <a href="https://www.linkedin.com/school/dulwich-college-beijing/">
+                            <img width="24" height="32" src="https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/socials/linkedin.png" alt="">
                           </a>
                         </td>
                         <td style="padding-top: 0px; padding-left: 7px; padding-bottom: 0; padding-right: 0;">
                           <a href="https://www.facebook.com/dulwichbeijing">
-                            <img width="24" height="32" src="../assets/socials/facebook.png" alt="">
+                            <img width="24" height="32" src="https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/socials/facebook.png" alt="">
                           </a>
                         </td>
                         <td style="padding-top: 0px; padding-left: 7px; padding-bottom: 0; padding-right: 0;">
                           <a href="https://www.instagram.com/dulwichcollegebeijing/">
-                            <img width="24" height="32" src="../assets/socials/instagram.png" alt="">
+                            <img width="24" height="32" src="https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/socials/instagram.png" alt="">
                           </a>
                         </td>
                         <td style="padding-top: 0px; padding-left: 7px; padding-bottom: 0; padding-right: 0;">
                           <a href="https://www.youtube.com/channel/UCPAMYCaLqMLdKSTZWfmL-YQ">
-                            <img width="32" height="32" src="../assets/socials/youtube.png" alt="">
+                            <img width="32" height="32" src="https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/socials/youtube.png" alt="">
                           </a>
                         </td>
                       </tr>
@@ -102,7 +102,7 @@
               <table style="margin: 0; padding: 0; border-spacing: 0;"> <!-- School accreditation -->
                 <tr>
                   <td style="padding: 0; padding-bottom: 5px;">
-                    <img src="../assets/accreditations/all-accreds.png" alt="">
+                    <img src="https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/accreditations/all-accreds.png" alt="">
                   </td>
                 </tr>
                 <tr>
@@ -135,7 +135,7 @@ export default {
   },
   methods: {
     getImgUrl(badge_id) {
-      return require('../assets/teacher-badges/' + badge_id + '.png')
+      return 'https://raw.githubusercontent.com/dulwichbeijing/email-signature-generator/main/src/assets/teacher-badges/' + badge_id + '.png';
     },
     toggleDarkMode() {
       this.darkMode = !this.darkMode;
