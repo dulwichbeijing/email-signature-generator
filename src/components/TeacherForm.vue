@@ -62,13 +62,13 @@ export default {
         { id: "apple", title: "Apple Distinguished Educator", selected: false },
         { id: "century", title: "Century Ambassador 2022-23", selected: false},
         { id: "common", title: "Common Sense Educator", selected: false},
-        // { id: "google1", title: "Google Certified Educator Level 1", selected: false},
-        // { id: "google2", title: "Google Certified Educator Level 2", selected: false},
         { id: "iste", title: "ISTE Certified Educator", selected: false },
         { id: "kognity", title: "Kognity Lead Educator", selected: false },
+        { id: "mhfa", title: "Mental Health First Aid", selected: false },
         { id: "miee-2122", title: "MIEE 2021-2022", selected: false },
         { id: "esports", title: "Microsoft Esports Leader", selected: false },
-        { id: "seesaw", title: "Seesaw Ambassador", selected: false }
+        { id: "seesaw", title: "Seesaw Ambassador", selected: false },
+        { id: "seesaw-pioneer", title: "Seesaw Pioneer", selected: false }
       ]
     }
   },
