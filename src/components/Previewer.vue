@@ -106,6 +106,20 @@
                   </td>
                 </tr>
                 <tr>
+                  <td style="font-size: 12px; font-style: italic; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; padding-top: 0; padding-left: 0; padding-right: 0;
+                  padding-bottom: 15px; line-height: 1.2; margin: 0;">
+                    We are fully committed to safeguarding all of our students from any form of harm or abuse.<br>
+                    <a style="color: #D30013;" href="https://beijing.dulwich.org/our-college/safeguarding">Click here</a> for more information.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 0;">
+                    <a href="https://www.dulwich.org/liveworldwise/index.html?schoolParams=colleges&amp;utm_source=Owned&amp;utm_medium=School-EmailSig&amp;utm_term=&amp;utm_content=DCI&amp;utm_campaign=LW_23">
+                      <img src="https://asset.eimglobal.org/static/2023-DCI-EXP.gif">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
                   <td style="font-size: 12px; font-family: 'Avenir W01', 'Helvetica Neue', Helvetica, Arial, 'Zawgyi-One', sans-serif; padding: 0; line-height: 1.2; margin: 0;">
                     <small>
                       <em>
