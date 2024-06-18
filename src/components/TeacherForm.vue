@@ -29,7 +29,7 @@
         <input type="checkbox" :name="badge.title" v-model="badge.selected">
       </label>
       <label>
-        Something missing? <a href="mailto:jared.rigby@dulwich.org">Email Jared</a>
+        Something missing? <a href="mailto:yosef.karasik@dulwich.org">Email Yosef</a>
       </label>
     </div>
   </form>
