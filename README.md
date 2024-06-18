@@ -8,4 +8,4 @@ Complete the form and watch as your new email signature is automatically generat
 
 ## Feedback?
 
-If you are having problems using this tool, please email jared.rigby@dulwich.org or raise an issue on this GitHub repository
+If you are having problems using this tool, please email yosef.karasik@dulwich.org or raise an issue on this GitHub repository
